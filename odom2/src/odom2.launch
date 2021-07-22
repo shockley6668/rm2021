@@ -1,0 +1,5 @@
+<launch>
+    <node name="rviz" pkg="rviz" type="rviz"/>
+    <node name="car" pkg="odom2"
+          type="odom.py"/>
+</launch>
